@@ -1,0 +1,52 @@
+.corpo .box .box_conteudo .box_conteudo_opcao{
+	height: 200px;
+	width: 275px;
+	float: left;
+	position: fixed;
+	z-index: 8;
+	background: #1E2128;
+	margin: 37px 0 30px 340px;
+	-webkit-box-shadow: 0px 0px 55px -6px rgba(255,255,255,0.1);
+	-moz-box-shadow: 0px 0px 55px -6px rgba(255,255,255,0.1);
+	box-shadow: 0px 0px 55px -6px rgba(255,255,255,0.1);
+}
+.corpo .box .box_conteudo .box_conteudo_opcao span{
+    width:0;
+    height:0;
+    border:7px solid transparent;
+    display:block;
+	margin: -14px 0 0 0;
+}
+.corpo .box .box_conteudo .box_conteudo_opcao span.seta{
+    border-bottom-color: #30A6DF;
+}
+.corpo .box .box_conteudo .box_conteudo_opcao a{
+  font-family: bahase;
+  font-size: 12px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #EBEBF1;
+  margin: 0 0 0 0;
+}
+.corpo .box .box_conteudo .box_conteudo_opcao .icone{
+	height: 13px;
+	width: 13px;
+	float: right;
+	color:#EBEBF1;
+	text-decoration: none;
+	margin: 5px 5px 0 0;
+	font-family: 'icons';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 13px;
+	line-height: 1;
+	letter-spacing: normal;
+	text-transform: none;
+	display: inline-block;
+	white-space: nowrap;
+	word-wrap: normal;
+	direction: ltr;
+	-webkit-font-feature-settings: 'liga';
+	-webkit-font-smoothing: antialiased;
+		
+}

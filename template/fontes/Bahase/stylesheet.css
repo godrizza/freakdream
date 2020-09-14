@@ -1,0 +1,25 @@
+@font-face {
+	font-family: 'Bahase';
+	src: url('bahase.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'icons';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Material Icons'), local('MaterialIcons-Regular'), url(icone.woff2) format('woff2');
+}
+.icons {
+  font-family: 'icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}

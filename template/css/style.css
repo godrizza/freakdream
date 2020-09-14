@@ -1,0 +1,219 @@
+@charset "utf-8";
+@import url("reset.css");
+@import url("../fontes/Bahase/stylesheet.css");
+
+body{
+	background: #F0F0EE;
+}
+.topo{
+	height: 30px;
+	width: 100%;
+	background: #1E2128;
+	float: left;
+	margin: 0 auto;
+}
+.topo .inicial{
+	height: 13px;
+	width: 13px;
+	float: left;
+	margin: 7px 0 0 10px;
+	background:  url(../img/inicial.png) no-repeat;
+}
+.topo .inicial:hover{
+	background:  url(../img/inicial_houver.png) no-repeat;
+}
+.topo .amigo{
+	height: 13px;
+	width: 13px;
+	float: left;
+	margin: 7px 0 0 10px;
+	background:  url(../img/amigo.png) no-repeat;
+}
+.topo .amigo:hover{
+	background:  url(../img/amigo_houver.png) no-repeat;
+}
+.topo .notificacao{
+	height: 13px;
+	width: 13px;
+	float: left;
+	margin: 7px 0 0 10px;
+	background:  url(../img/notificacao.png) no-repeat;
+}
+.topo .notificacao:hover{
+	background:  url(../img/notificacao_houver.png) no-repeat;
+}
+.icone{
+	height: 30px;
+	width: 40px;
+	background: #31A8E0 url(../img/icone.png) no-repeat;
+	float: left;
+	margin: 0 0 0 10px;
+}
+.logo{
+	height: 389px;
+	width: 720px;
+	background: url(../img/logo.png) no-repeat;
+	z-index: 1;
+	margin: 2% 0 0 0;
+	position: absolute;
+}
+.nuvem{
+	height: 347px;
+	width: 1140px;
+	background: url(../img/nuvem.png) no-repeat;
+	z-index: 2;
+	margin: 10% 0 0 0;
+	position: absolute;
+}
+.viver{
+	height: 389px;
+	width: 979px;
+	background: url(../img/viver.png) no-repeat;
+	z-index: 4;
+	bottom: 0;
+	position: absolute;
+	margin: 0 0 5% 29%;
+}
+.nuvem3{
+	height: 299px;
+	width: 457px;
+	background: url(../img/nuvem3.png) no-repeat;
+	z-index: 3;
+	bottom: 0;
+	margin: 0 0 5% 71%;
+	position: absolute;
+}
+.nuvem2{
+	height: 309px;
+	width: 1213px;
+	background: url(../img/nuvem2.png) no-repeat;
+	z-index: 5;
+	bottom: 0;
+	position: absolute;
+}
+.form-4 {
+    width: 450px;
+    margin:-10px 0 0 0;
+    padding: 10px;
+    font-family:Bahase;
+    float: right;
+    color: #FFFFFF;
+    text-shadow: 0 2px 1px rgba(0,0,0,0.3);
+}
+.form-4 input[type=text],
+.form-4 input[type=password]{
+	height: 10px;
+    width: 35%;
+    padding: 8px 4px 8px 10px;
+    border: 0px solid ;
+    border: 0px solid rgba(78,48,67, 0.8);
+    background: rgba(0,0,0,0.15);
+    font-family:bahase;
+    color: #FFFFFF;
+    font-size: 13px; 
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+color: #CCC;
+text-shadow: 0 1px 0 rgba(255,255,255,0.15);
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+color: #CCC;
+text-shadow: 0 1px 0 rgba(255,255,255,0.15);
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+color: #CCC;
+text-shadow: 0 1px 0 rgba(255,255,255,0.15);
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+color: #CCC;
+text-shadow: 0 1px 0 rgba(255,255,255,0.15);
+}
+.form-4 input[type=submit] {
+    width: 17%;
+    height: 30px;
+    background: #31A8E0;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    color: #FFFFFF;
+    border: 0px solid;
+    font-size: 16px;
+    font-weight: bold;
+    font-family:bahase;
+}
+.form-4 input[type=submit]:hover {
+    box-shadow: 
+        inset 0 20px 30px rgba(0,0,0,0.2),
+        inset 0 20px 30px rgba(0,0,0,0.2);
+}
+.busca {
+    width: 300px;
+	height: 15px;
+    margin:-10px 0 0 0;
+    padding: 10px;
+    font-family:Bahase;
+    float: right;
+    color: #FFFFFF;
+    text-shadow: 0 2px 1px rgba(0,0,0,0.3);
+}
+.busca input[type=text]{
+	height: 15px;
+    width: 250px;
+    padding: 8px 4px 8px 10px;
+    border: 0px solid ;
+    border: 0px solid rgba(78,48,67, 0.8);
+  	background: url("../img/fundo_pesquisa.png");
+    font-family:bahase;
+    color: #EEEFF1;
+    font-size: 13px; 
+    margin: 0 0 0 0;
+	float: left;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+color: #CCC;
+text-shadow: 0 1px 0 rgba(255,255,255,0.15);
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+color: #CCC;
+text-shadow: 0 1px 0 rgba(255,255,255,0.15);
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+color: #CCC;
+text-shadow: 0 1px 0 rgba(255,255,255,0.15);
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+color: #CCC;
+text-shadow: 0 1px 0 rgba(255,255,255,0.15);
+}
+.busca input[type=submit] {
+    width: 27px;
+    height: 30px;
+    background: url(../img/botao_busca.fw.png);
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    color: #FFFFFF;
+    border: 0px solid;
+    font-size: 16px;
+    font-weight: bold;
+    font-family:bahase;
+}
+.busca input[type=submit]:hover {
+    box-shadow: 
+        inset 0 20px 30px rgba(0,0,0,0.2),
+        inset 0 20px 30px rgba(0,0,0,0.2);
+}
+
+.topo_sub{
+	height: 30px;
+	width: 100%;
+	float: left;
+	background: #EEEFF1;
+	float: left;
+}
